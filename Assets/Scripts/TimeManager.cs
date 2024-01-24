@@ -11,8 +11,8 @@ public class TimeManager : MonoBehaviour
 
     private void Awake()
     {
-        timeIns = this;//½Ì±ÛÅæÈ­
-        Time.timeScale = 0.0f;//timer ¾ÆÁ÷ ½ÃÀÛ ¾ÈÇÏµµ·Ï ÁöÁ¤
+        timeIns = this;//ì‹±ê¸€í†¤í™”
+        Time.timeScale = 0.0f;//timer ì•„ì§ ì‹œì‘ ì•ˆí•˜ë„ë¡ ì§€ì •
     }
     void Start()
     {
