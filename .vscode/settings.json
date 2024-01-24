@@ -51,5 +51,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "threeGo.sln"
+    "dotnet.defaultSolution": "threeGo.sln",
+    "dotnet.preferCSharpExtension": true
 }
