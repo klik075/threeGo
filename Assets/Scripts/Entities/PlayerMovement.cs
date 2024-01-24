@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
         _controller.OnMoveEvent += Move;
     }
 
-    private void FixedUpdate()
+    protected virtual void FixedUpdate()
     {
         ApplyMovement(_movementDirection);
         //if (knockbackDuration > 0.0f)
