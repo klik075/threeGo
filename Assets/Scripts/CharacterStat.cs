@@ -8,8 +8,8 @@ public class CharacterStat : MonoBehaviour
     {
         PlayerCat,
         PlayerDog,
-        Monster1,
-        Monster2
+        Enemy1,
+        Enemy2
     }
 
     public string characterName;
