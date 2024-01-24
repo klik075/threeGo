@@ -7,7 +7,7 @@ public class TimeManager : MonoBehaviour
     public static TimeManager timeIns;
     public bool timeStop = true;
 
-    public float elapsedTime { get; private set; }
+    public float timeGoing;
 
     private void Awake()
     {
@@ -21,7 +21,10 @@ public class TimeManager : MonoBehaviour
 
     void Update()
     {
-        
+        if(timeStop == false)
+        {
+            timeGoing += Time.deltaTime;
+        }
     }
 
     public void StopTimer()
