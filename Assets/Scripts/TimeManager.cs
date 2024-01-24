@@ -37,4 +37,9 @@ public class TimeManager : MonoBehaviour
         timeStop = false;
         Time.timeScale = 1f;
     }
+
+    public void EndTimer()
+    {
+        Time.timeScale = 0.0f;
+    }
 }
