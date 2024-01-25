@@ -1,0 +1,16 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Animations : MonoBehaviour
+{
+    protected Animator animator;
+    protected CharacterController controller;
+    protected virtual void Awake()
+    {
+        animator = GetComponentInChildren<Animator>();
+        controller = GetComponent<CharacterController>();
+    }
+    // Start is called before the first frame update
+
+}
