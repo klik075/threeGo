@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class GirlController : MonsterController
+public class CommonController : MonsterController
 {
     [SerializeField][Range(0f,100f)] private float followRange;
     [SerializeField] private string targetTag = "Player";//타겟의 태그
