@@ -31,4 +31,9 @@ public class PlayerInputController : CharacterController
         }
     }
 
+    public void OnFire(InputValue value)
+    {
+        IsAttacking = value.isPressed;
+    }
+
 }

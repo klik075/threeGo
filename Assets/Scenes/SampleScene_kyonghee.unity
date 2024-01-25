@@ -221,7 +221,7 @@ SpriteRenderer:
   m_SortingOrder: 5
   m_Sprite: {fileID: -403288013, guid: 02b0cc2d5ee3d41a2a01b1f3efc96768, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2.07, y: 2.89}
@@ -379,7 +379,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852549109}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.8, y: -0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -401,6 +401,7 @@ GameObject:
   - component: {fileID: 1156986981}
   - component: {fileID: 1156986980}
   - component: {fileID: 1156986985}
+  - component: {fileID: 1156986986}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -565,6 +566,20 @@ MonoBehaviour:
   armRenderer: {fileID: 1804366167}
   armPivot: {fileID: 274617335}
   characterRender: {fileID: 124862956}
+--- !u!114 &1156986986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156986977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b867d38a23c446fca1d84d2bb563c83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileSpawnPosition: {fileID: 1062792965}
+  testPrefab: {fileID: 4781241776004233652, guid: 4c72b6853ad354636b6183e944f156e8, type: 3}
 --- !u!4 &1561133101
 Transform:
   m_ObjectHideFlags: 0
@@ -637,7 +652,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
