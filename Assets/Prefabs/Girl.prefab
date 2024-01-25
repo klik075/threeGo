@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 9176236489579698247}
   - component: {fileID: 6334636900685898270}
   m_Layer: 0
-  m_Name: Monster
+  m_Name: Girl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -141,7 +141,7 @@ Transform:
   m_Children:
   - {fileID: 7513582295072203381}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6599825672151563033
 MonoBehaviour:
