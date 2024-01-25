@@ -6,13 +6,13 @@ using UnityEngine;
 
 public class MonsterController : CharacterController
 {
-    //GameManager gameManager; 게임 매니저
+    GameManager gameManager; //게임 매니저
     protected Transform ClosetTarget {get; private set;}
     // Start is called before the first frame update
     protected virtual void Start()
     {
-        // gameManager = GameManager.instance; 게임 매니저 참조
-        // ClosetTarget = gameManager.player; 플레이어의 위치를 게임 매니저로 가져옴
+        gameManager = GameManager.instance; //게임 매니저 참조
+        ClosetTarget = gameManager.Player; //플레이어의 위치를 게임 매니저로 가져옴
     }
 
     // Update is called once per frame
