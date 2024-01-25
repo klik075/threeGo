@@ -13,7 +13,7 @@ public class CharacterController : MonoBehaviour
     private float _timeSinceLastAtteck = float.MaxValue;
     protected bool IsAttacking { get; set; }
 
-    protected virtual void Update()
+    protected virtual void FixedUpdate()
     {
         HandleAttackDelay();
     }
